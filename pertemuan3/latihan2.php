@@ -5,8 +5,13 @@
 // ternary
 // switch
 
-$x = 10;
+$x = 2;
 if( $x < 20 ){
     echo "Benar";
+} else if($x == 20) {
+    echo "BINGO!";
+} else {
+    echo "Salah";
 }
+
 ?>
